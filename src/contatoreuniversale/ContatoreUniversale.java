@@ -7,16 +7,19 @@ package contatoreuniversale;
 /**
  *
  * @author Simoyoyo
- * palla
+ * @authot Piffy
  */
 public class ContatoreUniversale {
+    
+    int x;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        int x;
-        int y;
-        // TODO code application logic here
+    public ContatoreUniversale() {
+        x=0;
     }
+
+    @Override
+    public String toString() {
+        return ""+x;
+    }
+    
 }
