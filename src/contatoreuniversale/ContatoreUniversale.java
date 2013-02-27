@@ -16,6 +16,7 @@ public class ContatoreUniversale {
      */
     public static void main(String[] args) {
         int x;
+        int y;
         // TODO code application logic here
     }
 }
