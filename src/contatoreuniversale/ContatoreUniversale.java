@@ -21,7 +21,7 @@ public class ContatoreUniversale {
      * Costruttore standard: inizializza a zero
      */
     public ContatoreUniversale() {
-        x=0;
+        x=0;   //Alpha: è normale che sia gai stato fatto ?!
     }
     
     //TODO Incrementa() -> Charlie
