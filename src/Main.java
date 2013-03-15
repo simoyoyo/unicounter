@@ -21,6 +21,7 @@ public class Main {
        ContatoreUniversale cu=new ContatoreUniversale();
        System.out.println("Applicazione demo per counter");
        System.out.println("Valore attuale: "+cu);
+       System.out.println("Prova gruppo Bravo.");
        
        
    }      
