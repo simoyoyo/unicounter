@@ -9,13 +9,13 @@ package contatoreuniversale;
  * @author Piffy
  */
 
-//TODO Implementare Comparable
+//TODO Implementare Comparable-> Echo
 
 public class ContatoreUniversale {
 
     int x;
 
-    //TODO Contatore con Inizializzatore
+    //TODO Contatore con Inizializzatore -> Alpha   
     
     /**
      * Costruttore standard: inizializza a zero
@@ -24,11 +24,11 @@ public class ContatoreUniversale {
         x=0;
     }
     
-    //TODO Incrementa() 
+    //TODO Incrementa() -> Charlie
     
-    //TODO Incrementa(int incremento) 
+    //TODO Incrementa(int incremento) -> Delta
     
-    //TODO ResetToInitialvalue (req. new attribute)
+    //TODO ResetToInitialvalue (req. new attribute) -> Bravo
     
     /**
      * 
