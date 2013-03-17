@@ -20,14 +20,14 @@ public class ContatoreUniversale {
     /**
      * Costruttore standard: inizializza a zero
      */
-             public int compareTo(Object y) {
-        ContatoreUniversale z= (ContatoreUniversale) y;
-        return (int) (x-z.x);
-    }
+
     public ContatoreUniversale() {
         x=0;
     }
-    
+                 public int compareTo(Object y) {
+        ContatoreUniversale z= (ContatoreUniversale) y;
+        return (int) (x-z.x);
+    }
     //TODO Incrementa() -> Charlie
     
     //TODO Incrementa(int incremento) -> Delta
@@ -54,7 +54,11 @@ public class ContatoreUniversale {
     //Test of Contatore con Inizializzatore
         
     //Test of Comparable interface
-        
+                int ris;
+        ContatoreUniversale z= new ContatoreUniversale();
+        ContatoreUniversale y= new ContatoreUniversale();
+        ris= z.compareTo(y);
+        System.out.println(ris);
     //Test of ResetToInitialvalue()    
     }
 }
