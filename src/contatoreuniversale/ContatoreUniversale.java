@@ -27,7 +27,9 @@ public class ContatoreUniversale {
     //TODO Incrementa() -> Charlie
     
     //TODO Incrementa(int incremento) -> Delta
-    
+    public void Incrementa(int incremento){
+        x+=incremento;
+    }
     //TODO ResetToInitialvalue (req. new attribute) -> Bravo
     
     /**
@@ -46,7 +48,8 @@ public class ContatoreUniversale {
     //Test of Incrementa
 
     //Test of Incrementa con quantità di incremento    
-        
+        c.Incrementa(7);
+        System.out.println("Valore (dovrebbe essere 7):"+c);
     //Test of Contatore con Inizializzatore
         
     //Test of Comparable interface
