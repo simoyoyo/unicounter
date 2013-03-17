@@ -20,6 +20,10 @@ public class ContatoreUniversale {
     /**
      * Costruttore standard: inizializza a zero
      */
+             public int compareTo(Object y) {
+        ContatoreUniversale z= (ContatoreUniversale) y;
+        return (int) (x-z.x);
+    }
     public ContatoreUniversale() {
         x=0;
     }
