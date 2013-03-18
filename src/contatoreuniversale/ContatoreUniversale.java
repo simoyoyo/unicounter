@@ -25,6 +25,9 @@ public class ContatoreUniversale {
     }
     
     //TODO Incrementa() 
+    public void Incrementa(){
+        x++;
+    }
     
     //TODO Incrementa(int incremento) 
     
@@ -44,7 +47,8 @@ public class ContatoreUniversale {
         ContatoreUniversale c = new ContatoreUniversale();
         System.out.println("Valore (dovrebbe essere 0):"+c);
     //Test of Incrementa
-
+        c.Incrementa();
+        System.out.println("Valore (dovrebbe essere 1):"+c);
     //Test of Incrementa con quantità di incremento    
         
     //Test of Contatore con Inizializzatore
