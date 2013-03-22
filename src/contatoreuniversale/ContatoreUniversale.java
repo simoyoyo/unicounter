@@ -14,15 +14,20 @@ package contatoreuniversale;
 public class ContatoreUniversale {
 
     int x;
+    int y;
 
     //TODO Contatore con Inizializzatore -> Alpha   
-    
+    public ContatoreUniversale(int x) {
+        this.x=x;   // Fatto da Bravo
+        y=x;
+    }
     /**
      * Costruttore standard: inizializza a zero
      */
 
     public ContatoreUniversale() {
         x=0;   //Alpha: è normale che sia gai stato fatto ?!
+        y=0;
     }
                  public int compareTo(Object y) {
         ContatoreUniversale z= (ContatoreUniversale) y;
@@ -35,7 +40,9 @@ public class ContatoreUniversale {
         x+=incremento;
     }
     //TODO ResetToInitialvalue (req. new attribute) -> Bravo
-    
+    public void ResetToInitialvalue(){
+        x=y;
+    }
     /**
      * 
      * @return il valore di x convertito in Stringa 
